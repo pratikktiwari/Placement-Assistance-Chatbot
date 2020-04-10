@@ -1,0 +1,97 @@
+I dreamed I was forced to eat a giant marshmallow, When I woke up, my pillow was gone.
+
+I got another letter from this lawyer today, It said “Final Notice”, Good that he will not bother me anymore.
+
+Manager Asked Santa In An Interview, "Can You Spell A Word That Has More Than 100 Letters In It?" Santa Replied: "P-O-S-T-B-O-X."
+
+Never criticize someone until you’ve walked a mile in their shoes, That way, when you criticize them, they won’t be able to hear you from that far away.
+
+Do I lose when the police officer says papers and I say scissors?
+
+If I got 1 dollar for every failed math exam, I’d be a billionaire by now.
+
+A computer once beat me at chess, but it was no match for me at kick boxing.
+
+As long as there are tests, there will be prayer in schools.
+
+Whenever I find the key to success, someone changes the lock.
+
+Life's like a bird, It's pretty cute until it poops on your head.
+
+The problem isn't that obesity runs in your family, The problem is no one runs in your family.
+
+
+twilio
+thispratik@gmail.com
+!T8g6%$$@&pA8M)4e
+
+Account SID: ACde71e3c0a1fc4d5c0a1371e769854c5b
+Auth Token: 44364650feb4726316d9a3d2d0eb4327
+
+
+curl 'https://api.twilio.com/2010-04-01/Accounts/ACde71e3c0a1fc4d5c0a1371e769854c5b/Messages.json' -X POST \
+--data-urlencode 'To=whatsapp:+917870984297' \
+--data-urlencode 'From=whatsapp:+14155238886' \
+--data-urlencode 'Body=Your appointment is coming up on July 21 at 3PM' \
+-u ACde71e3c0a1fc4d5c0a1371e769854c5b:[AuthToken]
+
+
+
+
+
+
+{
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "api_version": "2010-04-01",
+  "body": "Hello there!",
+  "date_created": "Thu, 30 Jul 2015 20:12:31 +0000",
+  "date_sent": "Thu, 30 Jul 2015 20:12:33 +0000",
+  "date_updated": "Thu, 30 Jul 2015 20:12:33 +0000",
+  "direction": "outbound-api",
+  "error_code": null,
+  "error_message": null,
+  "from": "whatsapp:+14155238886",
+  "messaging_service_sid": "MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "num_media": "0",
+  "num_segments": "1",
+  "price": null,
+  "price_unit": null,
+  "sid": "MMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "status": "sent",
+  "subresource_uris": {
+    "media": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages/SMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Media.json"
+  },
+  "to": "whatsapp:+15005550006",
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages/SMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
+}
+
+
+
+
+
+
+
+{
+    "sid": "SM9bd9715e904742bf8f6af9250d4f2087",
+    "date_created": "Sun, 05 Apr 2020 04:35:26 +0000",
+    "date_updated": "Sun, 05 Apr 2020 04:35:26 +0000",
+    "date_sent": null,
+    "account_sid": "ACde71e3c0a1fc4d5c0a1371e769854c5b",
+    "to": "whatsapp:+917870984297",
+    "from": "whatsapp:+14155238886",
+    "messaging_service_sid": null,
+    "body": "Your appointment is coming up on July 21 at 3PM",
+    "status": "queued",
+    "num_segments": "1",
+    "num_media": "0",
+    "direction": "outbound-api",
+    "api_version": "2010-04-01",
+    "price": null,
+    "price_unit": null,
+    "error_code": null,
+    "error_message": null,
+    "uri": "/2010-04-01/Accounts/ACde71e3c0a1fc4d5c0a1371e769854c5b/Messages/SM9bd9715e904742bf8f6af9250d4f2087.json",
+    "subresource_uris": {
+        "media": "/2010-04-01/Accounts/ACde71e3c0a1fc4d5c0a1371e769854c5b/Messages/SM9bd9715e904742bf8f6af9250d4f2087/Media.json"
+    }
+}

@@ -1,0 +1,37 @@
+<!doctype html>
+<head>
+	<link rel="stylesheet"
+    href="{{ url_for('static', filename='css/home.css') }}">
+    <script type="text/javascript" src="{{ url_for('static', filename='js/ajax_req.js') }}"></script>
+	<title>Bot</title>
+</head>
+{# {% if name %}
+  <h1>Hello {{ name }}!</h1>
+{% else %}
+  <h1>sas	, World!</h1>
+{% endif %} #}
+	<body>
+		<div class="main_div">
+			<div class="chat_logo_1"></div>
+			<div class="chat_box">
+				<div class="chat_title_bar">
+					<div class="chat_icon_title_logo"></div>
+					<div class="chat_name_person">Shail</div>
+				</div>
+				<div class="chat_body_main">
+					<div class="chat_human">
+						<div class="man_icon_chat_small"></div>
+						<div class="chat_text_human">hello world</div>
+					</div>
+					<div class="chat_bot">
+						<div class="chat_text_bot">lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum dolor sit amer</div>
+						<div class="bot_icon_chat_small"></div>
+					</div>
+				</div>
+				<div class="chat_text_box_chat">
+					<textarea name="send_chat_txt" id="send_chat_txt_data">hello</textarea>
+					<div class="send_btn" onclick="send_data()"></div>
+				</div>
+			</div>
+		</div>
+	</body>
